@@ -1,0 +1,13 @@
+interface IProps {
+
+}
+
+const GetStarted = ({}: IProps) => {
+    return (
+        <>
+            <h1>Get Started</h1>
+        </>
+    )
+}
+
+export default GetStarted;
