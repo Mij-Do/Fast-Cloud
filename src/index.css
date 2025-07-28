@@ -12,6 +12,7 @@ a:hover {
     padding: 10px;
     border-radius: 5px;
     transition: all 0.3s;
+    width: 100%;
 }
 .active {
     background-color: #5719e5;
