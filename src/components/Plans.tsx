@@ -1,11 +1,8 @@
 import Button from "./ui/Button";
 import { Check } from 'lucide-react';
 
-interface IProps {
-    
-}
 
-const Plans = ({}: IProps) => {
+const Plans = () => {
     return (
         <div className="my-5">
             <h2 className="text-xl my-10">Pricing Plans</h2>
