@@ -11,7 +11,7 @@ const KeyFeature = ({}: IProps) => {
     return (
         <div>
             <h2 className="text-xl my-10">Key Features</h2>
-            <div className="flex space-x-3">
+            <div className="flex flex-col space-y-3 md:flex-row space-x-3">
                 <FeatureCard 
                     title="Speed" 
                     description="Experience lightning-fast performance with our optimized infrastructure.">

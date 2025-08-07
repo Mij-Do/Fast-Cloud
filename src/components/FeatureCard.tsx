@@ -8,7 +8,7 @@ interface IProps {
 
 const FeatureCard = ({children, title, description}: IProps) => {
     return (
-        <div className="bg-[#423D54] rounded-md flex flex-col space-y-3 p-2 w-full">
+        <div className="bg-[#423D54] rounded-md flex flex-col space-y-3 p-2 w-full md:h-60">
             <div>
                 {children}
             </div>

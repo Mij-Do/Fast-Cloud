@@ -12,7 +12,7 @@ interface IProps {
 
 const GetStarted = ({}: IProps) => {
     return (
-        <section className="mx-50 space-y-5">
+        <section className="md:mx-30 space-y-5">
             <div className="flex justify-center mb-10">
                 <Image src={HeroImage} alt="Hero Image" className="w-fit"/>
             </div>
